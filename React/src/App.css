@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+body{
+  background-color: #f1f1f1 !important;
+}
+.font1{
+  font-family: "Inter", sans-serif !important;
+}
+.nav-link.active{
+  border-bottom: 2px solid #20C4D9;
+}
+.breadcrumb-item,.breadcrumb-item a{
+  font-family: "Inter", sans-serif !important;
+}
+.breadcrumb-item a{
+  color:#20C4D9 !important;
+  text-decoration: none;
+}
+.cardItem{
+  transition: all 0.3s ease-in-out;
+  position: relative !important;
+}
+.cardItem:hover{
+  transition: all 0.3s ease-in-out; 
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.cardItem a{
+  text-decoration: none;
+  color:#000;
+  font-family: "Inter", sans-serif !important;
+}
+.activeController{
+  position: absolute;
+  right:10px;
+  top:10px;
+}
+.itemOpacity{
+  position: absolute;
+  top:0px;
+  left:0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.btn-primary{
+  background-color: #20C4D9 !important;
+  border-color: #20C4D9 !important;
+}
+.text-primary2{
+  color: #20C4D9 !important;
+}
+.bg-primary2{
+  background-color: #20C4D9 !important;
+}
+.modal-body table tbody tr:nth-last-child(1) td{
+  border:0px !important;
+}
+.row2{
+  display:flex;
+  justify-content: start;
+  overflow-x: scroll;
+  gap:10px;
+}
+.filterTable td{text-align: center;}
+.filterTable thead tr th{
+  font-weight: bold;
+}
+.filterTable tbody tr td input{
+  width: auto;
+  text-align: center;
+  margin: auto;
+}
+.filterTable tbody tr td input.hover{
+  background-color: #20C4D9;
+  color:#fff;
+}
+.filterTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+.filterTable thead th {
+  position: sticky;
+  top: 0;
+  background-color: white; 
+  z-index: 2; 
+}
+.sticky-header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Öne çıkarmak için */
+  background-color: #fff; /* Arkaplan rengini ayarlayın */
+}
+
+.w50{
+  width:55px !important;
+  font-size: 11px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align: center !important;
+}
+.w110{
+  width: 110px !important;
+  font-size: 11px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align: center !important;
+}
+.w70{
+  width: 70px !important;
+  font-size: 11px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align: center !important;
+}
+.filterTable thead tr td{
+  font-size: 9px;
+  font-weight: bold !important;
+}
+.ariza{
+  width:70px !important;
+  font-size: 9px !important;
+  height: 30.5px !important;
+  padding:0px !important;
+  margin:0px !important;
+  width: 50px !important;
+  text-align: center !important;
+  margin:0px !important;
+}
+.arizabtn{height:30.5px !important;padding-top: 2px !important;}
